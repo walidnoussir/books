@@ -1,10 +1,10 @@
 import Login from "./features/login/Login";
-import SignUp from "./pages/SignUp";
 
 function App() {
   return (
     <div>
-      <SignUp />
+      <h1 className="text-blue-500">hello dev!</h1>
+      <Login />
     </div>
   );
 }

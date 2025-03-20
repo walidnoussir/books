@@ -1,5 +1,10 @@
+import LoginFrom from "../features/login/Login";
 function Login() {
-  return <div>Login</div>;
+  return (
+    <div>
+      <LoginFrom />
+    </div>
+  );
 }
 
 export default Login;
