@@ -29,3 +29,39 @@
   --color-red: #ef5a56;
   --color-blue: #3784fb;
 }
+
+@layer base {
+  :root {
+    --font-heading: "Open Sans", sans-serif;
+    --font-size-h1: 40px;
+    --font-size-h2: 32px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-h5: 18px;
+    --font-size-h6: 16px;
+  }
+
+  h1 {
+    @apply font-bold text-[var(--font-size-h1)] font-[var(--font-heading)];
+  }
+
+  h2 {
+    @apply font-bold text-[var(--font-size-h2)] font-[var(--font-heading)];
+  }
+
+  h3 {
+    @apply font-bold text-[var(--font-size-h3)] font-[var(--font-heading)];
+  }
+
+  h4 {
+    @apply font-bold text-[var(--font-size-h4)] font-[var(--font-heading)];
+  }
+
+  h5 {
+    @apply font-bold text-[var(--font-size-h5)] font-[var(--font-heading)];
+  }
+
+  h6 {
+    @apply font-bold text-[var(--font-size-h6)] font-[var(--font-heading)];
+  }
+}
