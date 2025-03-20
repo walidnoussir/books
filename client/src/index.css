@@ -28,6 +28,39 @@
   --color-orange: #ff8c39;
   --color-red: #ef5a56;
   --color-blue: #3784fb;
+
+  --font-family-roboto: "Roboto", sans-serif;
+
+  --body-xlarge-font-size: 18px;
+
+  --body-xlarge-font-weight: 500;
+
+  --body-large-semibold-font-size: 16px;
+
+  --body-large-semibold-font-weight: 600;
+
+  --body-large-medium-font-size: 16px;
+
+  --body-large-medium-font-weight: 500;
+}
+
+body {
+  background: var(--color-white);
+}
+
+.body-xlarge {
+  font-family: var(--body-xlarge-font-family);
+  font-size: var(--body-xlarge-font-size);
+  font-weight: var(--body-xlarge-font-weight);
+}
+
+.body-large-semibold {
+  font-family: var(--body-large-semibold-font-family);
+  font-size: var(--body-large-semibold-font-size);
+  font-weight: var(--body-large-semibold-font-weight);
+}
+.input {
+  @apply bg-gray-50 p-3  text-gray-900 rounded-lg;
 }
 
 @layer base {
