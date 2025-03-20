@@ -60,7 +60,7 @@ body {
   font-weight: var(--body-large-semibold-font-weight);
 }
 .input {
-  @apply bg-gray-50 p-3  text-gray-900 rounded-lg focus:border-none  focus:outline-2 focus:outline-primary-400;
+  @apply bg-gray-50 p-3  text-gray-900 rounded-lg;
 }
 
 @layer base {
